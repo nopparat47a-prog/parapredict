@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+scikit-learn
+xgboost
+prophet
+statsmodels
+beautifulsoup4
+requests
+pandas
+numpy

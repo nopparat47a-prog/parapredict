@@ -1,0 +1,1 @@
+import { generateHistory, generateForecast } from './src/data/mockRealData.js'; try { const h = generateHistory('south', 'sheet'); const f = generateForecast(h, 7); console.log('OK', f.bestModel.name); } catch(e) { console.error('ERROR', e); }
